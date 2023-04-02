@@ -1,0 +1,16 @@
+# Site Settings
+Title: Macfrancis Belchi
+Theme: jekyll-theme-minimal 
+nav:
+ -text: Home
+ url: Home
+ -text: About
+ url: About
+ -text: Contact
+ url: Contact
+ 
+ social:
+ -icon: LinkedIn
+ url: linkedin.com/in/macfrancis-belchi-8125a28b
+-icon: email
+-url: macfrancis.belchi@outlook.com
