@@ -51,12 +51,7 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
-     @media only screen and (max-width: 768px) {
-  body {
-    background-size: contain;
-    background-position: center;
-      }
-    }
+    
     .work {
       font-weight: bold;
       font-family: cursive;
@@ -74,8 +69,8 @@
       font-size: 2vw;
       font-weight: normal;
       margin-top: 1vw;
-      margin-bottom: 5vw;
-      padding: 5vw;
+      margin-bottom: 1vw;
+      padding: 1vw;
       background-image: linear-gradient(to right, #f7f7f7, #ffffff);
       color: rgb(22, 21, 21);
       max-width: 100%;
@@ -95,7 +90,9 @@
     .w3-padding-32 {
       padding: 1vw;
     }
-   
+    .w3-panel {
+      margin-top: 1vw;
+    }
   </style>
   <script>
     window.addEventListener('DOMContentLoaded', () => {
@@ -124,13 +121,17 @@
     <div class="title">
      <!--<h2>IT Analyst</h2>-->
     </div>
- 
+  <div class="w3-panel introduction" style="font-family: fangsong; color: rgb(55, 58, 58);">
+    <h4>INTRODUCTION</h4>
+  </div>
 
   <!-- Content -->
-  <div class="w3-content w3-white" style="max-width:1000px;margin-top:5px;margin-bottom:5px"> 
-      <div class="name">
+  <div class="w3-content" style="max-width:1200px;margin-top:5px;margin-bottom:5px">
+    <div class="w3-panel introduction">
+      
+    <div class="name">
       <p id="fade-in">Macfrancis Belchi</p> 
-      </div>
+    </div>
       <p>Enthusiastic and skilled computer systems specialist with a bachelor’s degree (Honors) in engineering. 
         Fully committed to the exciting and evolving world of information technology and computer systems management. 
         Possesses technical expertise in IT administration, cloud and on-premise servers and devices management, virtualization, 
