@@ -41,7 +41,12 @@
       color: rgb(212, 84, 15);
       text-align: center;
     }
-
+      @media only screen and (max-width: 768px) {
+    body {
+    background-size: contain;
+    background-position: center;
+        }
+    }
     #fade-in {
       opacity: 0;
       animation: fade-in 5s forwards;
