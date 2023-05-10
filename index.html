@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     body {
-      background-image: url("image1.jpg");
+      background-image: url("image1.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
       margin: 0;
       padding: 0;
       font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-      color: #581616;
+      color: #090909;
     }
     .column {
       max-width: 100%;
@@ -34,11 +34,12 @@
       color: #ffffff;
     }
     .name {
+      margin-top: 1vw;
       font-weight: normal;
       font-size: 5vw;
       border: solid;
       font-family: Georgia, serif;
-      color: rgb(212, 84, 15);
+      color: rgb(113, 42, 3);
       text-align: center;
     }
 
@@ -58,7 +59,7 @@
       color: rgb(12, 12, 12);
     }
     .title {
-      margin-top: 10vw;
+      margin-top: 80vw;
       font-family: Georgia, serif;
       color: rgb(129, 119, 115);
       text-align: center;
@@ -68,7 +69,7 @@
       text-align: center;
       font-size: 2vw;
       font-weight: normal;
-      margin-top: 1vw;
+      margin-top: 5vw;
       margin-bottom: 5vw;
       padding: 5vw;
       background-image: linear-gradient(to right, #f7f7f7, #ffffff);
@@ -91,7 +92,7 @@
       padding: 1vw;
     }
     .w3-panel {
-      margin-top: 1vw;
+      margin-top: 10vw;
     }
   </style>
   <script>
@@ -112,7 +113,7 @@
 <body>
     <!-- Links (sit on top) -->
     <div class="w3-top">
-       <div class="w3-bar w3-large w3-brown">
+       <div class="w3-bar w3-large w3-grey">
          <a href="#" class="w3-bar-item w3-button">Home</a>
          <a href="#about" class="w3-bar-item w3-button">Skills</a>
          <a href="#contact" class="w3-bar-item w3-button">Contact</a>
@@ -121,65 +122,60 @@
     <div class="title">
      <!--<h2>IT Analyst</h2>-->
     </div>
-  <div class="w3-panel introduction" style="font-family: fangsong; color: rgb(55, 58, 58);">
-    <h4>INTRODUCTION</h4>
-  </div>
+  
 
   <!-- Content -->
-  <div class="w3-content" style="max-width:1200px;margin-top:5px;margin-bottom:5px">
+  <div class="w3-content" style="max-width:1000px;margin-top:5px;margin-bottom:5px">
     <div class="w3-panel introduction">
       
     <div class="name">
       <p id="fade-in">Macfrancis Belchi</p> 
     </div>
-      <p>A passionate and skilled computer systems specialist with a bachelor’s degree (Honors) in engineering. 
+      <p>Enthusiastic and skilled computer systems specialist with a bachelor’s degree (Honors) in engineering. 
         Fully committed to the exciting and evolving world of information technology and computer systems management. 
-        Possesses technical expertise in IT administration, cloud and on-premise servers and devices management, virtualization, Salesforce CRM, 
-        operating systems deployment, Microsoft and Amazon web cloud computing, Microsoft System Center Configuration Manager, Hypervisors, and Ticketing systems</p>
-      <div class="work">
-      <P>Below are snippets -> of my skill set</P>
-      </div>
+        Possesses technical expertise in IT administration, cloud and on-premise servers and devices management, virtualization, Salesforce CRM, operating systems deployment, Microsoft and Amazon web cloud computing, Microsoft System Center Configuration Manager, Hypervisors, Identity access management applications and Ticketing systems</p>
+      
     </div>
     <!-- Slideshow -->
     <div class="w3-container">
       <div class="w3-display-container mySlides">
         <img src="az.png" style="max-width:auto; height:auto; margin: 10px auto 20px;">
-        
       </div>
-      <div class="w3-display-container mySlides">
-        <img src="ntk2.png" style="max-width:auto; height:auto; margin: 10px auto 20px;">
-        
       
-      </div>
       <div class="w3-display-container mySlides">
-        <img src="ntk5.png" style="max-width:auto; height:auto; margin: 10px auto 20px;">
-        
+        <<img src="ntk2.png" style="max-width:auto; height:auto; margin: 10px auto 20px;">
       </div>
+      
+      <div class="w3-display-container mySlides">
+        <<img src="ntk5.png" style="max-width:auto; height:auto; margin: 10px auto 20px;">
+      </div>
+      
       <div class="w3-display-container mySlides">
         <img src="ntk6.png" style="max-width:auto; height:auto; margin: 10px auto 20px;">
-        
       </div>
+      
       <div class="w3-display-container mySlides">
         <img src="knt9.png" style="max-width:auto; height:auto; margin: 10px auto 20px;">
-       
       </div>
-      <!-- Slideshow next/previous buttons -->
-      <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
-        <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
-        <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+      
+      <!-- Slideshow buttons -->
+      <div class="w3-container w3-black w3-padding w3-xlarge">
+        <button class="w3-button w3-hover-text-teal w3-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-hover-text-teal w3-right" onclick="plusDivs(1)">&#10095;</button>
     
         <div class="w3-center">
-          <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-          <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-          <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          <button class="w3-button w3-square demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></button>
+          <button class="w3-button w3-square demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></button>
+          <button class="w3-button w3-square demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></button>
         </div>
       </div>
     </div>
     
+    
     <!-- Grid -->
 <div class="w3-row w3-container">
   <div class="w3-center w3-padding-64">
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Proficiencies</span>
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-60">PROFICIENCIES</span>
   </div>
   <div class="w3-col l3 m6 s12 w3-light-grey w3-container w3-padding-16" style="font-family: fangsong; color: rgb(55, 58, 58);">
     <h3>Documentation</h3>
@@ -204,26 +200,27 @@
 
  <!-- Grid -->
 <div class="w3-container">
-  <img src="pic.jpg" style="width:100%; max-width: 800px; margin: 10px auto 20px; display: block;">
+  <img src="pic.jpg" style="width:100%; max-width: 400px; margin: 10px auto 20px; display: block;">
 </div>
 <!-- Grid -->
 <div class="w3-row-padding" id="about">
   <div class="w3-center w3-padding-64">
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Capabilities</span>
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-60">CAPABILITIES</span>
   </div>
   <div class="w3-third w3-margin-bottom">
     <div class="w3-card-4">
       <img src="pic6.jpg" alt="John" style="width:100%">
-      <div class="w3-container">
+      <div class="w3-container w3-grey">
         <h3>Network and Device Troubleshoot</h3>
         <p>Proficient in troubleshooting network and device issues to ensure smooth operation</p>
       </div>
+      
     </div>
   </div>
   <div class="w3-third w3-margin-bottom">
-    <div class="w3-card-4">
+    <div class="w3-card-4"> 
       <img src="pic5.jpg" alt="Mike" style="width:100%">
-      <div class="w3-container">
+      <div class="w3-container w3-grey">
         <h3>Scripting and Automation</h3>
         <p>Skilled in scripting and automation to streamline processes and increase efficiency</p>
       </div>
@@ -232,7 +229,7 @@
   <div class="w3-third w3-margin-bottom">
     <div class="w3-card-4">
       <img src="pic4.jpg" alt="Jane" style="width:100%">  
-        <div class="w3-container">
+        <div class="w3-container w3-grey">
           <h3>Reporting and Documentation</h3>
           <p>Excellent with reporting techniques, applications and customer relations management</p>
         </div>
@@ -242,7 +239,7 @@
 
   <!-- Contact -->
   <div class="w3-center w3-padding-64" id="contact">
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact</span>
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-60">CONTACT</span>
   
 
 <!-- Footer -->
@@ -306,3 +303,5 @@ Privacy
 Security
 Status
 D
+</body>
+</html>
