@@ -19,32 +19,7 @@
       font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
       color: #090909;
     }
-    .title {
-      margin-top: 20vw;
-      font-family: Georgia, serif;
-      color: rgb(129, 119, 115);
-      text-align: center;
-    }
-    .introduction {
-      float: left;
-      text-align: center;
-      font-size: 2vw;
-      font-weight: normal;
-      margin-top: 5vw;
-      margin-bottom: 5vw;
-      padding: 5vw;
-      background-image: linear-gradient(to right, #f7f7f7, #ffffff);
-      color: rgb(22, 21, 21);
-      max-width: 100%;
-    }
-    .content {
-      position: relative;
-      z-index: 1;
-      padding: 50px;
-      color: #ffffff;
-      margin-top: 20px; /* adjust this value to your liking */
-    }
-    .column {
+   .column {
       max-width: 100%;
     }
     @media (min-width: 600px) {
@@ -52,13 +27,6 @@
         max-width: 50%;
       }
     }
-    
-    @media only screen and (max-width: 768px) {
-  body {
-    background-size: contain;
-    background-position: center;
-    }
-  }
     .content {
       position: relative;
       z-index: 1;
@@ -66,12 +34,11 @@
       color: #ffffff;
     }
     .name {
-      margin-top: 20vw;
       font-weight: normal;
       font-size: 5vw;
       border: solid;
       font-family: Georgia, serif;
-      color: rgb(113, 42, 3);
+      color: rgb(212, 84, 15);
       text-align: center;
     }
 
@@ -84,14 +51,35 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
-    
+     @media only screen and (max-width: 768px) {
+  body {
+    background-size: contain;
+    background-position: center;
+      }
+    }
     .work {
       font-weight: bold;
       font-family: cursive;
       color: rgb(12, 12, 12);
     }
-   
-    
+    .title {
+      margin-top: 10vw;
+      font-family: Georgia, serif;
+      color: rgb(129, 119, 115);
+      text-align: center;
+    }
+    .introduction {
+      float: left;
+      text-align: center;
+      font-size: 2vw;
+      font-weight: normal;
+      margin-top: 1vw;
+      margin-bottom: 5vw;
+      padding: 5vw;
+      background-image: linear-gradient(to right, #f7f7f7, #ffffff);
+      color: rgb(22, 21, 21);
+      max-width: 100%;
+    }
     .w3-bar-item {
       padding: 1vw;
       font-size: 3vw;
@@ -107,7 +95,9 @@
     .w3-padding-32 {
       padding: 1vw;
     }
-  
+    .w3-panel {
+      margin-top: 1vw;
+    }
   </style>
   <script>
     window.addEventListener('DOMContentLoaded', () => {
@@ -127,24 +117,33 @@
 <body>
     <!-- Links (sit on top) -->
     <div class="w3-top">
-       <div class="w3-bar w3-large w3-grey">
+       <div class="w3-bar w3-large w3-brown">
          <a href="#" class="w3-bar-item w3-button">Home</a>
          <a href="#about" class="w3-bar-item w3-button">Skills</a>
          <a href="#contact" class="w3-bar-item w3-button">Contact</a>
        </div>
     </div>
-  
+    <div class="title">
+     <!--<h2>IT Analyst</h2>-->
+    </div>
+  <div class="w3-panel introduction" style="font-family: fangsong; color: rgb(55, 58, 58);">
+    <h4>INTRODUCTION</h4>
+  </div>
 
   <!-- Content -->
   <div class="w3-content" style="max-width:1000px;margin-top:5px;margin-bottom:5px">
+    <div class="w3-panel introduction">
       
     <div class="name">
       <p id="fade-in">Macfrancis Belchi</p> 
     </div>
-      <p>Enthusiastic and skilled computer systems specialist with a bachelor’s degree (Honors) in engineering. 
+      <p>A passionate and skilled computer systems specialist with a bachelor’s degree (Honors) in engineering. 
         Fully committed to the exciting and evolving world of information technology and computer systems management. 
-        Possesses technical expertise in IT administration, cloud and on-premise servers and devices management, virtualization, Salesforce CRM, operating systems deployment, Microsoft and Amazon web cloud computing, Microsoft System Center Configuration Manager, Hypervisors, Identity access management applications and Ticketing systems</p>
-      
+        Possesses technical expertise in IT administration, cloud and on-premise servers and devices management, virtualization, Salesforce CRM, 
+        operating systems deployment, Microsoft and Amazon web cloud computing, Microsoft System Center Configuration Manager, Hypervisors, and Ticketing systems</p>
+      <div class="work">
+      <P>Below are snippets -> of my skill set</P>
+      </div>
     </div>
     <!-- Slideshow -->
     <div class="w3-container">
